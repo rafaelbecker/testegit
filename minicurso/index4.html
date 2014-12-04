@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<script src=" jquery.min.js"></script>
+	<link rel= "stylesheet"  type="text/css" href="estilos.css">
+</head>
+
+<script >
+$(document).ready (function(){
+	$("#bt_deslizar").click(function(){
+
+			$(".azul").animate({top:'150px', left:'0px',opacity:'o.3'},"slow");
+			$(".azul").animate({top:'150px', left:'150px',opacity:'o.5'},"slow");
+			$(".azul").animate({top:'0px', left:'150px',opacity:'o.3'},"slow");
+			$(".azul").animate({top:'0px', left:'0px',opacity:'1'},"slow");
+
+		});
+			
+	
+
+});
+
+
+</script>
+
+</head>
+<body>
+
+	<button id="bt_deslizar"style="position:absolute; top:300px;">Deslizar</button>
+	
+	<div class="azul">
+	</div>
+
+	
+
+</body>
+</html>

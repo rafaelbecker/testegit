@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<script src=" jquery.min.js"></script>
+	<link rel= "stylesheet"  type="text/css" href="estilos.css">
+</head>
+
+<script >
+$(document).ready (function(){
+	$("#bt_deslizar").click(function(){
+
+			$(".azul").slideDown(2000,function(){
+				$(".azul").css("background-color","yellow");
+				
+			
+			});
+
+			$(".azul").slideUp(2000);
+		});
+
+});
+
+
+</script>
+
+</head>
+<body>
+
+	<button id="bt_deslizar">Deslizar</button>
+	
+	<div class="azul">
+	</div>
+
+	
+
+</body>
+</html>
+

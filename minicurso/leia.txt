@@ -1,0 +1,29 @@
+pode haver erro de css pois os arquivos html estão 
+utilizando o mesmo css para funçoes diferentes
+
+
+.azul{
+	background-color: blue;
+	width:100px;
+	height:100px;
+	
+	display:none;
+}
+
+
+
+.azul{
+	background-color: blue;
+	width:100px;
+	height:100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+
+
+
+
+
+http://www.W3schools.com/jquery/
+codepen
